@@ -1,4 +1,4 @@
-#!/home/calix/workd/VueDjangoFrameWorkShop/vue3x/bin/python3.7
+#!/home/calix/workd/VueDjangoFrameWorkShop/vue3x/bin/python3.8
 from django.core import management
 
 if __name__ == "__main__":
