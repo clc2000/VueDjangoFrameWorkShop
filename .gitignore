@@ -163,6 +163,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+ve3x
 
 # Spyder project settings
 .spyderproject

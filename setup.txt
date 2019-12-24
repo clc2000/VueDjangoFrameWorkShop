@@ -1,0 +1,15 @@
+python3.8 +  mysql8.0
+
+install: 
+sudo apt-get install libmysqlclient-dev python3.8-dev libjpeg-dev zlib1g-dev 
+sudo apt-get install mysql-server-8.0 redis
+
+clone repo:
+git remote set-url --add origin git@github.com:clc2000/VueDjangoFrameWorkShop.git 
+
+#modify sql verify method and password
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'root';
+
+#create super user and password
+python manage.py  createsuperuser
+
